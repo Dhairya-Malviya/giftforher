@@ -1,3 +1,6 @@
+const code = "TDBWM1UtQQ=="
+const decoded = atob(code)
+
 function goFullscreen() {
       // Check if screen width is mobile-sized
       if (window.innerWidth <= 800) {
@@ -16,7 +19,7 @@ function checkCode() {
     const input = document.getElementById("codeInput").value.trim();
         
     // Example: Check for a specific code like "1234"
-    if (input === "L0V3U-A") {
+    if (input === decoded) {
         // Redirect to your target page
         window.location.href = "a9d3f6z2l8q7x1b4m5n0yckwtuvhjgr.html"; // Change this to your actual HTML page
         goFullscreen()
