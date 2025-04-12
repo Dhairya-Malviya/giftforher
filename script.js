@@ -1,5 +1,5 @@
 const code = "TDBWM1UtQQ=="
-const decoded = atob(code)
+const decoded = "L0V3-U"
 
 function goFullscreen() {
       // Check if screen width is mobile-sized
